@@ -82,3 +82,13 @@ input[type=number] {
     color: #fff;
     padding: 10px;
 }
+
+@media only screen and (min-width: 800px) {
+
+    .table {
+        width: 40%;
+    }
+    #form {
+        width: 20%;
+    }
+}

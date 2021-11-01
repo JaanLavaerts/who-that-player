@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/leaderboard">
+          <Route path="/highscores">
             <Header />
             <Leaderboard />
             <Footer />
