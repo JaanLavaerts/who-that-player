@@ -18,7 +18,7 @@ const Leaderboard = () => {
             alert("Can't add a nobody. Step up yo game!")
         }
         else {
-            fetch('http://localhost:8000/leaderboard', {
+            fetch('https://who-that-player.herokuapp.com/api', {
                 method: 'POST',
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(submission)
@@ -31,7 +31,7 @@ const Leaderboard = () => {
     }
 
     useEffect(() => {
-        fetch('http://localhost:8000/leaderboard')
+        fetch('https://who-that-player.herokuapp.com/api')
         .then(res => {
             return res.json()
         })
