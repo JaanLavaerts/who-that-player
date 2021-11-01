@@ -1,0 +1,132 @@
+
+
+  /* PLAYER COMPONENT */
+
+
+  .player-container {
+    margin: 20px 15px 40px 15px;
+    padding: 20px;
+    border: 2px solid #BBE1FA;
+    color: #FFF;
+    background-color: #293b44;
+    border-radius: 4px;
+  }
+
+  .main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main {
+    height: 615px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .player-container table {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+  }
+
+  .tip {
+    color: rgb(255, 255, 255);
+    margin: -20px auto 20px auto;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #BBE1FA;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(53, 153, 58, 0.712);
+  }
+
+
+  .tip-button {
+    padding: 7px;
+    width: 100px;
+    margin: auto;
+    font-size: large;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #293b44;
+    border: 2px solid #BBE1FA;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.521);
+    font-style: italic;
+    font-size: small;
+    letter-spacing: 0px;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .player-container table th {
+    font-size: 12px;
+  }
+
+  .player-container table td {
+    padding-top: 5px;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .player-container h2 {
+    padding: 5px;
+  }
+
+  img {
+    width: 35px;
+  }
+
+    /* LOADER */
+
+    .lds-dual-ring:after {
+      margin: auto;
+      content: " ";
+      display: block;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 8px solid #fff;
+      border-color: #2d9097 transparent #2d9097 transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+    }
+    @keyframes lds-dual-ring {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+      /* ANSWERS */
+
+  .answer {
+    text-align: center;
+    padding: 20px;
+    margin: 10px 20px;
+    border: 1px solid #BBE1FA;
+    cursor: pointer;
+    background-color: #293b44;
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+
+
+@media only screen and (min-width: 800px) {
+  .main {
+    width: 40%;
+    margin: auto;
+  }
+
+}

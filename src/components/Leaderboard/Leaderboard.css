@@ -1,0 +1,84 @@
+h2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.leaderboard h3 {
+    text-align: center;
+    color: rgb(25, 214, 25);
+    margin: 10px auto 20px auto;
+    font-size: xx-large;
+
+}
+
+#form {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#form button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #3282B8;
+    font-weight: 600;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    background-color: #2d9097;
+    color: white;
+}
+
+label {
+    color: white;
+    padding: 10px;
+}
+
+input {
+    border: 1px solid #3282B8;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  border-radius: 0px;
+}
+
+.table {
+    border: solid 1px #3282B8;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.table thead th {
+    background-color: #2d9097;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 7px;
+    text-align: left;
+}
+.table tbody td {
+    border: solid 1px #DDEEEE;
+    color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,28 @@
+
+
+
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #2d9097;
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leaderboard-footer {
+    margin-right: 13px;
+}
+
+#footer {
+    margin-left: 20px;
+}
+
+
+
+

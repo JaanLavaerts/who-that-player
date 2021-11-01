@@ -1,0 +1,31 @@
+  /* HEADER */
+
+
+  header {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    background-color: #2d9097;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    
+  }
+  
+  header i {
+    padding: 0px 10px 0 10px;
+  }
+
+  h1 {
+    position: relative;
+    top: 20px;
+    margin-left: 5px;
+  }
+
+  header img {
+    width: 70px;
+
+  }
