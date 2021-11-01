@@ -24,7 +24,6 @@ const Leaderboard = () => {
                 body: JSON.stringify(submission)
             }).then(() => {
                 localStorage.setItem('score', 0)
-                refreshPage()
             })
         }
         
